@@ -1,9 +1,11 @@
 import React from 'react'
 import "./QuestionCard.css"
 
-const QuestionCard = () => {
+const QuestionCard = ({questionsData, score, setScore, count, setCount, modal, setModal}) => {
   return (
-    <div>QuestionCard</div>
+    <div className='questionCard'>
+
+    </div>
   )
 }
 
