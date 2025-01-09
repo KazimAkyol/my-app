@@ -10,7 +10,7 @@
   margin-bottom: 10px;
 }
 
-questionCard button {
+.questionCard button {
   width: 48%;
   height: 40px;
   font-size: 17px;
@@ -18,4 +18,24 @@ questionCard button {
   background-color: white;
   border: 1px solid lightgray;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.questionCard button:hover {
+  background-color: black;
+  color: white;
+}
+
+.questionCard-timer {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 }
